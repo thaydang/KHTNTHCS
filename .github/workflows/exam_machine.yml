@@ -1,0 +1,59 @@
+name: AI Exam Machine
+
+# Tạo giao diện nhập liệu
+on:
+  workflow_dispatch:
+    inputs:
+      bai_hoc:
+        description: 'Tên bài học (VD: Oxy, Lực đẩy Archimedes)'
+        required: true
+        default: 'Oxy - KHTN 8'
+      so_cau:
+        description: 'Số lượng câu hỏi'
+        required: true
+        default: '10'
+        type: choice
+        options:
+        - '5'
+        - '10'
+        - '15'
+        - '20'
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    
+    steps:
+    # 1. Lấy code về
+    - uses: actions/checkout@v4
+
+    # 2. Cài đặt môi trường
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+        
+    # 3. Cài công cụ hỗ trợ xuất Word (Pandoc)
+    - name: Install System Tools
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y pandoc
+
+    # 4. Cài thư viện Python
+    - name: Install Libraries
+      run: pip install -r requirements.txt
+
+    # 5. CHẠY MÁY
+    - name: Run Generator
+      env:
+        GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        INPUT_TOPIC: ${{ inputs.bai_hoc }}
+        INPUT_NUM: ${{ inputs.so_cau }}
+      run: python gen_exam.py
+
+    # 6. Trả hàng (Upload file)
+    - name: Upload Result
+      uses: actions/upload-artifact@v4
+      with:
+        name: Bo-De-Thi-${{ inputs.bai_hoc }}
+        path: output/

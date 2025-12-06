@@ -1,14 +1,13 @@
-- name: Install system dependencies
-  run: sudo apt-get update && sudo apt-get install -y libcairo2-dev
-  name: AI Exam Machine
-# Tạo giao diện nhập liệu
+name: AI Exam Machine
+
+# PHẦN 1: Cấu hình sự kiện (Giữ nguyên tiếng Anh 'on', 'inputs')
 on:
   workflow_dispatch:
     inputs:
       bai_hoc:
         description: 'Tên bài học (VD: Oxy, Lực đẩy Archimedes)'
         required: true
-        default: 'Oxy - KHTN 8'
+        default: 'Bai_Tap_KHTN'
       so_cau:
         description: 'Số lượng câu hỏi'
         required: true
@@ -19,7 +18,9 @@ on:
         - '10'
         - '15'
         - '20'
-
+        - '25'
+        - '50'
+# PHẦN 2: Các công việc cần làm (Giữ nguyên 'jobs', 'steps', 'run')
 jobs:
   generate:
     runs-on: ubuntu-latest
@@ -28,23 +29,23 @@ jobs:
     # 1. Lấy code về
     - uses: actions/checkout@v4
 
-    # 2. Cài đặt môi trường
+    # 2. Cài đặt Python
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
         python-version: '3.9'
         
-    # 3. Cài công cụ hỗ trợ xuất Word (Pandoc)
+    # 3. Cài công cụ hỗ trợ xuất file (Không được dịch lệnh 'sudo apt-get...')
     - name: Install System Tools
       run: |
         sudo apt-get update
-        sudo apt-get install -y pandoc
+        sudo apt-get install -y pandoc libcairo2-dev
 
     # 4. Cài thư viện Python
     - name: Install Libraries
       run: pip install -r requirements.txt
 
-    # 5. CHẠY MÁY
+    # 5. CHẠY MÁY (Gọi file Python)
     - name: Run Generator
       env:
         GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
@@ -52,9 +53,9 @@ jobs:
         INPUT_NUM: ${{ inputs.so_cau }}
       run: python gen_exam.py
 
-    # 6. Trả hàng (Upload file)
+    # 6. Trả hàng (Upload file kết quả)
     - name: Upload Result
       uses: actions/upload-artifact@v4
       with:
-        name: Bo-De-Thi-${{ inputs.bai_hoc }}
+        name: Ket-qua-thi
         path: output/

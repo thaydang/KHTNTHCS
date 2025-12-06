@@ -1,5 +1,6 @@
-name: AI Exam Machine
-
+- name: Install system dependencies
+  run: sudo apt-get update && sudo apt-get install -y libcairo2-dev
+  name: AI Exam Machine
 # Tạo giao diện nhập liệu
 on:
   workflow_dispatch:

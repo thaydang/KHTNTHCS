@@ -1,0 +1,5 @@
+google-generativeai
+markdown
+xhtml2pdf
+pypandoc
+requests

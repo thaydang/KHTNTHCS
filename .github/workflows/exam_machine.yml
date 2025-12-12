@@ -1,5 +1,5 @@
 name: AI Exam Machine
-
+run-name: 
 # PHẦN 1: Cấu hình sự kiện (Giữ nguyên tiếng Anh 'on', 'inputs')
 on:
   workflow_dispatch:

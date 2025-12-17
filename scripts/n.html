@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Công cụ Tổng hợp Yêu cầu Cần đạt KHTN</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Thư viện đọc CSV -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+    <!-- Thư viện xuất Excel -->
+    <script src="https://cdn.sheetjs.com/xlsx-0.19.3/package/dist/xlsx.full.min.js"></script>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+    </style>
+</head>
+<body class="bg-gray-50 min-h-screen p-4 md:p-8">
+
+    <div class="max-w-3xl mx-auto bg-white rounded-xl shadow-lg overflow-hidden">
+        <div class="bg-blue-600 p-6 text-white">
+            <h1 class="text-2xl font-bold">Tổng hợp Yêu cầu Cần đạt KHTN</h1>
+            <p class="text-blue-100 mt-2">Nhập các file CSV chương trình học để tách và gộp thành file Excel tổng.</p>
+        </div>
+
+        <div class="p-6 space-y-6">
+            
+            <!-- Khu vực upload file -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div class="border-2 border-dashed border-gray-300 rounded-lg p-4 hover:border-blue-500 transition-colors">
+                    <label class="block text-sm font-medium text-gray-700 mb-2">File CSV Lớp 6</label>
+                    <input type="file" id="file6" accept=".csv" class="block w-full text-sm text-gray-500 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-blue-50 file:text-blue-700 hover:file:bg-blue-100"/>
+                </div>
+                
+                <div class="border-2 border-dashed border-gray-300 rounded-lg p-4 hover:border-blue-500 transition-colors">
+                    <label class="block text-sm font-medium text-gray-700 mb-2">File CSV Lớp 7</label>
+                    <input type="file" id="file7" accept=".csv" class="block w-full text-sm text-gray-500 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-blue-50 file:text-blue-700 hover:file:bg-blue-100"/>
+                </div>
+
+                <div class="border-2 border-dashed border-gray-300 rounded-lg p-4 hover:border-blue-500 transition-colors">
+                    <label class="block text-sm font-medium text-gray-700 mb-2">File CSV Lớp 8</label>
+                    <input type="file" id="file8" accept=".csv" class="block w-full text-sm text-gray-500 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-blue-50 file:text-blue-700 hover:file:bg-blue-100"/>
+                </div>
+
+                <div class="border-2 border-dashed border-gray-300 rounded-lg p-4 hover:border-blue-500 transition-colors">
+                    <label class="block text-sm font-medium text-gray-700 mb-2">File CSV Lớp 9</label>
+                    <input type="file" id="file9" accept=".csv" class="block w-full text-sm text-gray-500 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-blue-50 file:text-blue-700 hover:file:bg-blue-100"/>
+                </div>
+            </div>
+
+            <!-- Nút xử lý -->
+            <div class="flex flex-col items-center justify-center pt-4">
+                <button onclick="processFiles()" class="bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-8 rounded-lg shadow-md transform transition hover:scale-105 flex items-center gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                    </svg>
+                    Xử lý & Tải về Excel
+                </button>
+                <p id="status" class="mt-4 text-sm text-gray-600 italic"></p>
+            </div>
+            
+            <!-- Hướng dẫn -->
+            <div class="bg-yellow-50 p-4 rounded-md border border-yellow-200 text-sm text-yellow-800">
+                <strong>Lưu ý:</strong> Công cụ sẽ tự động tìm các cột "Tiết", "Chủ đề", "Bài dạy", "Yêu cầu cần đạt" và tách từng dòng yêu cầu riêng biệt.
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const inputs = [
+            { id: 'file6', grade: 6 },
+            { id: 'file7', grade: 7 },
+            { id: 'file8', grade: 8 },
+            { id: 'file9', grade: 9 }
+        ];
+
+        let processedData = [];
+        let filesProcessedCount = 0;
+        let totalFilesToProcess = 0;
+
+        function updateStatus(message, isError = false) {
+            const el = document.getElementById('status');
+            el.innerText = message;
+            el.className = isError ? "mt-4 text-sm text-red-600 font-bold" : "mt-4 text-sm text-blue-600 font-semibold";
+        }
+
+        async function processFiles() {
+            processedData = [];
+            filesProcessedCount = 0;
+            
+            const activeInputs = inputs.filter(item => document.getElementById(item.id).files.length > 0);
+            totalFilesToProcess = activeInputs.length;
+
+            if (totalFilesToProcess === 0) {
+                updateStatus("Vui lòng chọn ít nhất một file CSV để xử lý.", true);
+                return;
+            }
+
+            updateStatus("Đang xử lý dữ liệu...");
+
+            for (const item of activeInputs) {
+                const file = document.getElementById(item.id).files[0];
+                await parseCSV(file, item.grade);
+            }
+        }
+
+        function parseCSV(file, grade) {
+            return new Promise((resolve) => {
+                Papa.parse(file, {
+                    header: true,
+                    skipEmptyLines: true,
+                    complete: function(results) {
+                        processRows(results.data, grade, results.meta.fields);
+                        filesProcessedCount++;
+                        if (filesProcessedCount === totalFilesToProcess) {
+                            exportExcel();
+                        }
+                        resolve();
+                    },
+                    error: function(err) {
+                        console.error("Lỗi đọc file:", err);
+                        filesProcessedCount++;
+                        resolve();
+                    }
+                });
+            });
+        }
+
+        function normalizeHeader(header) {
+            const h = header.toLowerCase().trim();
+            if (h.includes('tiết')) return 'Tiết';
+            if (h.includes('chủ đề')) return 'Chủ đề';
+            if (h.includes('bài dạy') || h.includes('tên bài')) return 'Bài dạy';
+            if (h.includes('yêu cầu')) return 'Yêu cầu cần đạt';
+            return header;
+        }
+
+        function splitRequirements(text) {
+            if (!text) return [];
+            let str = text.toString();
+            
+            // Chuẩn hóa bullet points
+            str = str.replace(/[\u2022\u2023\u25E6\u2043\u2219]/g, '-');
+
+            // Tách dòng
+            let lines = str.split('\n');
+            let results = [];
+
+            lines.forEach(line => {
+                let cleanLine = line.trim();
+                // Bỏ ký tự đầu dòng (- hoặc +)
+                cleanLine = cleanLine.replace(/^[-+]\s*/, '');
+                if (cleanLine) results.push(cleanLine);
+            });
+
+            // Fallback nếu không có xuống dòng nhưng có gạch đầu dòng bên trong
+            if (results.length <= 1 && (str.includes('- ') || str.includes('+ '))) {
+                 // Logic tách đơn giản dựa trên dấu gạch
+                 let parts = str.split(/[-+]\s+/);
+                 results = parts.map(p => p.trim()).filter(p => p);
+            }
+
+            return results.length > 0 ? results : [str.trim()];
+        }
+
+        function processRows(data, grade, headers) {
+            // Map headers to standard names
+            const map = {};
+            headers.forEach(h => {
+                map[normalizeHeader(h)] = h;
+            });
+
+            const colTiet = map['Tiết'];
+            const colChuDe = map['Chủ đề'];
+            const colBai = map['Bài dạy'];
+            const colYeuCau = map['Yêu cầu cần đạt'];
+
+            // Nếu không tìm thấy cột Yêu cầu theo tên, thử lấy cột index 3 (nếu có đủ cột)
+            let useIndexFallback = false;
+            if (!colYeuCau && headers.length >= 4) {
+                useIndexFallback = true;
+            }
+
+            data.forEach(row => {
+                let reqText = "";
+                let tiet = "";
+                let chuDe = "";
+                let bai = "";
+
+                if (useIndexFallback) {
+                    // Fallback theo vị trí cột: 0:Tiết, 1:Chủ đề, 2:Bài, 3:Yêu cầu
+                    const keys = Object.keys(row);
+                    tiet = row[keys[0]];
+                    chuDe = row[keys[1]];
+                    bai = row[keys[2]];
+                    reqText = row[keys[3]];
+                } else {
+                    if (colYeuCau) reqText = row[colYeuCau];
+                    if (colTiet) tiet = row[colTiet];
+                    if (colChuDe) chuDe = row[colChuDe];
+                    if (colBai) bai = row[colBai];
+                }
+
+                // Bỏ qua dòng tiêu đề lặp lại
+                if (reqText && reqText.toString().toLowerCase().includes("yêu cầu cần đạt")) return;
+
+                const reqs = splitRequirements(reqText);
+                
+                reqs.forEach(r => {
+                    processedData.push({
+                        "Lớp": grade,
+                        "Tiết": tiet,
+                        "Chủ đề": chuDe,
+                        "Bài dạy": bai,
+                        "Yêu cầu cần đạt": r
+                    });
+                });
+            });
+        }
+
+        function exportExcel() {
+            if (processedData.length === 0) {
+                updateStatus("Không tìm thấy dữ liệu hợp lệ để xuất.", true);
+                return;
+            }
+
+            const ws = XLSX.utils.json_to_sheet(processedData);
+            
+            // Điều chỉnh độ rộng cột
+            const wscols = [
+                {wch: 5},  // Lớp
+                {wch: 10}, // Tiết
+                {wch: 25}, // Chủ đề
+                {wch: 30}, // Bài dạy
+                {wch: 60}  // Yêu cầu
+            ];
+            ws['!cols'] = wscols;
+
+            const wb = XLSX.utils.book_new();
+            XLSX.utils.book_append_sheet(wb, ws, "Tong_Hop_KHTN");
+
+            XLSX.writeFile(wb, "Tong_Hop_Yeu_Cau_Can_Dat.xlsx");
+            updateStatus("Đã xuất file thành công! Kiểm tra thư mục tải xuống.");
+        }
+    </script>
+</body>
+</html>

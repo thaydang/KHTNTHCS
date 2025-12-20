@@ -1,185 +1,78 @@
-```csv
-TIẾT,CHỦ ĐỀ,"Nội dung/đơn vị kiến thức
-BÀI DẠY",YÊU CẦU CẦN ĐẠT,Cột 1
-1,Mở đầu,"Mở đầu
-Bài 1. Giới thiệu về KHTN","- Nêu được khái niệm khoa học tự nhiên.
- - Quan sát các hoạt động trong cuộc sống và nhận ra đâu là hoạt động nghiên cứu khoa học, đối tượng nghiên cứu của chúng là gì.
- - Trình bày được vai trò của khoa học tự nhiên trong đời sống.",
- - Nêu được khái niệm và vai trò của khoa học tự nhiên trong đời sống; nhận biết hoạt động nghiên cứu khoa học và đối tượng nghiên cứu.
-```
-"2, 3",Mở đầu,"Bài 2. Các lĩnh vực chủ yếu của KHTN (tiết 1, 2)","- Trình bày được một số lĩnh vực chủ yếu của khoa học tự nhiên.
- - Tìm hiểu các lĩnh vực của khoa học tự nhiên thông qua thực hiện và quan sát các thí nghiệm trong SGK.
- - Phân biệt được các lĩnh vực của khoa học tự nhiên dựa vào đối tượng nghiên cứu; Phân biệt được vật sống và vật không sống dựa vào các đặc điểm đặc trưng.",
-4,Mở đầu,Bài 3. Quy định an toàn trong phòng thực hành. Giới thiệu một số dụng cụ đo - Sử dụng kính lúp và kính hiển vi quang học (tiết 1),"- Trình bày được cách sử dụng một số dụng cụ đo thông thường khi học tập môn Khoa học tự nhiên (các dụng cụ đo chiều dài, thể tích, ...).
- - Nêu được các quy định an toàn khi học trong phòng thực hành.
- - Phân biệt được các kí hiệu cảnh báo trong phòng thực hành.
- - Đọc và phân biệt được các hình ảnh quy định an toàn phòng thực hành.
- - Trình bày được cách sử dụng kính lúp, kính hiển vi quang học thông qua tìm hiểu sách giáo khoa hoặc video hướng dẫn sử dụng.",
-"5, 6, 7",Mở đầu,"Bài 3. Quy định an toàn trong phòng thực hành. Giới thiệu một số dụng cụ đo - Sử dụng kính lúp và kính hiển vi quang học (tiết 2, 3, 4)","- Trình bày được cách sử dụng một số dụng cụ đo thông thường khi học tập môn Khoa học tự nhiên (các dụng cụ đo chiều dài, thể tích, ...).
- - Nêu được các quy định an toàn khi học trong phòng thực hành.
- - Phân biệt được các kí hiệu cảnh báo trong phòng thực hành.
- - Đọc và phân biệt được các hình ảnh quy định an toàn phòng thực hành.
- - Trình bày được cách sử dụng kính lúp, kính hiển vi quang học thông qua tìm hiểu sách giáo khoa hoặc video hướng dẫn sử dụng.",
-8,Chủ đề 1. Các phép đo,"
-Bài 4. Đo chiều dài (tiết 1)","- Nêu được cách đo, đơn vị đo và dụng cụ thường dùng để đo chiều dài của một vật; Nêu được tầm quan trọng của việc ước lượng trước khi đo chiều dài trong một số trường hợp đơn giản.",
-9,Chủ đề 1. Các phép đo,Bài 4. Đo chiều dài (tiết 2),"- Nêu được cách đo, đơn vị đo và dụng cụ thường dùng để đo chiều dài của một vật; Nêu được tầm quan trọng của việc ước lượng trước khi đo chiều dài trong một số trường hợp đơn giản.",
-"10, 11",Chủ đề 1. Các phép đo,"Bài 5. Đo khối lượng (tiết 1, 2)","- Nêu được cách đo, đơn vị đo và dụng cụ thường dùng để đo khối lượng của một vật; Nêu được tầm quan trọng của việc ước lượng trước khi đo khối lượng trong một số trường hợp đơn giản.",
-12,Chủ đề 1. Các phép đo,Bài 6. Đo thời gian (tiết 1),"- Nêu được cách đo, đơn vị đo và dụng cụ thường dùng để đo thời gian của một hoạt động; Nêu được tầm quan trọng của việc ước lượng trước khi đo thời gian trong một số trường hợp đơn giản.",
-13,Chủ đề 1. Các phép đo,Bài 6. Đo thời gian (tiết 2),"- Nêu được cách đo, đơn vị đo và dụng cụ thường dùng để đo thời gian của một hoạt động; Nêu được tầm quan trọng của việc ước lượng trước khi đo thời gian trong một số trường hợp đơn giản.",
-"14, 15, 16",Chủ đề 1. Các phép đo,"Bài 7. Thang nhiệt độ Celsius. Đo nhiệt độ (tiết 1, 2, 3)","- Phát biểu được nhiệt độ là số đo độ ""nóng"", ""lạnh"" của vật; Nêu được cách xác định nhiệt độ trong thang nhiệt độ Celsius;                                                                                                                                                           - Nêu được sự nở vì nhiệt của chất lỏng được dùng làm cơ sở để đo nhiệt độ;                                        - Nêu được tầm quan trọng của việc ước lượng trước khi đo nhiệt độ trong một số trường hợp đơn giản.",
-17,,Ôn tập chủ đề 1,- Hệ thống hóa kiến thức chủ đề 1.,
-"18, 19, 20",Chủ đề 2. Các thể của chất,"Bài 8. Sự đa dạng và các thể cơ bản của chất. Tính chất của chất (tiết 1, 2, 3)","- Nêu được sự đa dạng của chất (chất có xung quanh ta, trong các vật thể tự nhiên, vật thể nhân tạo, vật vô sinh, vật hữu sinh,...); 
- - Trình bày được một số đặc điểm cơ bản ba thể (trạng thái) của chất (rắn, lỏng, khí) thông qua quan sát; 
- - Nêu được một số tính chất của chất (tính chất vật lí, tính chất hoá học); 
- - Nêu được các khái niệm về sự nóng chảy, sự sôi, sự bay hơi, sự ngưng tụ, sự đông đặc; 
- - Trình bày được quá trình diễn ra sự chuyển thể: nóng chảy, sôi, bay hơi, đông đặc, ngưng tụ; sôi.",
-21,Chủ đề 3. C,"Chủ đề 3. Oxygen và không khí
- Bài 9. Oxygen.","- Nêu được một số tính chất của oxygen.
-- Nêu được tầm quan trọng của oxygen đối với sự sống, sự cháy và quá trình đốt nhiên liệu.",
-22,Chủ đề 2. Các thể của chất,Bài 10. Không khí và bảo vệ môi trường không khí.,"- Trình bày được tính chất và ứng dụng của một số vật liệu thông dụng trong cuộc sống và sản xuất. - Nêu được thành phần của không khí; Trình bày được vai trò của không khí đối với tự nhiên; Trình bày được sự ô nhiễm không khí: các chất gây ô nhiễm, nguồn gây ô nhiễm không khí, biểu hiện của không khí bị ô nhiễm.",
-23,,"Ôn tập chủ đề 2, 3","- Hệ thống hoá được kiến thức chủ đề 2, 3.",
-"24, 25","Chủ đề 4. Một số vật liệu, nhiên liệu, nguyên liệu, lương thực - thực phẩm thông dụng; Tính chất và ứng dụng của chúng","Bài 11. Một số vật liệu thông dụng (tiết 1,2 )","- Đề xuất được phương án tìm hiểu về một số tính chất của một số vật liệu thông dụng; 
-- Thu thập dữ liệu, phân tích, thảo luận, so sánh để rút ra được kết luận về tính chất của một số vật liệu.           
-- Đề xuất được phương án tìm hiểu về một số tính chất của một - số vật liệu thông dụng; Thu thập dữ liệu, phân tích, thảo luận, so sánh để rút ra được kết luận về tính chất của một số vật liệu.",
-"26, 27","Chủ đề 4. Một số vật liệu, nhiên liệu, nguyên liệu, lương thực - thực phẩm thông dụng; Tính chất và ứng dụng của chúng","Bài 12. Nhiên liệu và an ninh năng lượng (tiết 1, 2)","- Trình bày được tính chất và ứng dụng của một số nhiên liệu thông dụng trong cuộc sống và sản xuất.
- - Nêu được cách sử dụng một số nhiên liệu an toàn, hiệu quả và bảo đảm sự phát triển bền vững",
-28,"Chủ đề 4. Một số vật liệu, nhiên liệu, nguyên liệu, lương thực - thực phẩm thông dụng; Tính chất và ứng dụng của chúng",Bài 13. Một số nguyên liệu.,"- Trình bày được tính chất và ứng dụng của một số nguyên liệu thường dùng trong sản xuất và trong công nghiệp (quặng, đá vôi,...)
-- Nêu được cách sử dụng một số nguyên liệu an toàn, hiệu quả và bảo đảm sự phát triển bền vững.",
-29,"Chủ đề 4. Một số vật liệu, nhiên liệu, nguyên liệu, lương thực - thực phẩm thông dụng; Tính chất và ứng dụng của chúng",Bài 14. Một số lương thực - thực phẩm (tiết 1),"- Trình bày được tính chất và ứng dụng của một số lương thực, thực phẩm thông dụng trong cuộc sống và sản xuất.
- - Đề xuất được phương án tìm hiểu về một số tính chất của một số lương thực – thực phẩm thông dụng.
- - Thu thập dữ liệu, phân tích, thảo luận, so sánh để rút ra được kết luận về tính chất của một số lương thực – thực phẩm.",
-30,,Ôn tập,,
-"31, 32",,Kiểm tra đánh giá giữa kì I (60 phút),,
-"33, 34, 35, 36",Chủ đề 5. Chất tinh khiết - Hỗn hợp. Phương pháp tách các chất,"Bài 15. Chất tinh khiết - Hỗn hợp (tiết 1, 2, 3)","- Nêu được khái niệm hỗn hợp, chất tinh khiết.
- - Phân biệt được hỗn hợp đồng nhất, hỗn hợp không đồng nhất.
- - Quan sát một số hiện tượng trong thực tiễn để phân biệt được dung dịch với huyền phù, nhũ tương.
- - Nhận ra được một số khí cũng có thể hoà tan trong nước để tạo thành một dung dịch; các chất rắn hoà tan và không hoà tan trong nước.
- -  Nêu được các yếu tố ảnh hưởng đến lượng chất rắn hoà tan trong nước.",
-"37, 38",Chủ đề 5. Chất tinh khiết - Hỗn hợp. Phương pháp tách các chất,"Bài 16. Một số phương pháp tách chất ra khỏi hỗn hợp (tiết 1, 2).",- Trình bày được một số phương pháp đơn giản để tách chất ra khỏi hỗn hợp và ứng dụng của các phương pháp đó.,
-39,,"Ôn tập chủ đề 4, 5",,
-40,Chủ đề 6. Tế bào - Đơn vị cơ sở của sự sống,"
- Bài 17. Tế bào (tiết 1)","- Trình bày được khái niệm và chức năng của tế bào; 
- - Nêu được hình dạng và kích thước điển hình của một số loại tế bào; 
- - Trình bày được cấu tạo tế bào và chức năng mỗi thành phần chính của tế bào; 
- - Phân biệt được tế bào nhân sơ và tế bào nhân thực, tế bào động vật và tế bào thực vật; 
- - Nhận biết được lục lạp là bào quan thực hiện chức năng quang hợp ở cây xanh; 
- - Nhận biết được tế bào là đơn vị cấu trúc và chức năng của sự sống; 
- - Nhận biết được sự lớn lên và phân chia của tế bào và nêu được ý nghĩa của quá trình đó.",
-"41, 42, 43, 44",Chủ đề 6. Tế bào - Đơn vị cơ sở của sự sống,"Bài 17. Tế bào (tiết 2, 3, 4, 5)","
- - Trình bày được khái niệm và chức năng của tế bào; 
- - Nêu được hình dạng và kích thước điển hình của một số loại tế bào; 
- - Trình bày được cấu tạo tế bào và chức năng mỗi thành phần chính của tế bào; 
- - Phân biệt được tế bào nhân sơ và tế bào nhân thực, tế bào động vật và tế bào thực vật; 
- - Nhận biết được lục lạp là bào quan thực hiện chức năng quang hợp ở cây xanh; 
- - Nhận biết được tế bào là đơn vị cấu trúc và chức năng của sự sống; 
- - Nhận biết được sự lớn lên và phân chia của tế bào và nêu được ý nghĩa của quá trình đó.",
-"45, 46",Chủ đề 6. Tế bào - Đơn vị cơ sở của sự sống,"Bài 18. Thực hành quan sát tế bào sinh vật (tiết 1, 2)",- Thực hành quan sát tế bào lớn bằng mắt thường và tế bào nhỏ dưới kính lúp và kính hiển vi quang học.,
-47,,Ôn tập chủ đề 6,- Hệ thống hóa kiến thức chủ đề 6.,
-48,Chủ đề 7. Từ tế bào đến cơ thể,Bài 19. Cơ thể đơn bào và cơ thể đa bào (tiết 1),"
-- Nhận biết được cơ thể đơn bào, cơ thể đa bào. Lấy được ví dụ minh hoạ.
- - Quan sát, mô phỏng được cấu tạo cơ thể đơn bào, cơ thể đa bào.
- - Liên hệ, nhận biết được cơ thể đơn bào, đa bào xung quanh em.",
-49,Chủ đề 7. Từ tế bào đến cơ thể,Bài 19. Cơ thể đơn bào và cơ thể đa bào (tiết 2),"
-- Nhận biết được cơ thể đơn bào, cơ thể đa bào. Lấy được ví dụ minh hoạ.
- - Quan sát, mô phỏng được cấu tạo cơ thể đơn bào, cơ thể đa bào.
- - Liên hệ, nhận biết được cơ thể đơn bào, đa bào xung quanh em.",
-"50, 51",Chủ đề 7. Từ tế bào đến cơ thể,"Bài 20. Các cấp độ tổ chức trong cơ thể đa bào (tiết 1, 2)","- Trình bày được mối quan hệ từ tế bào hình thành nên mô, cơ quan, hệ cơ quan và cơ thể. Từ đó nêu được các khái niệm mô, cơ quan, hệ cơ quan, cơ thể. Lấy được ví dụ minh hoạ.",
-"52, 53", Chủ đề 7. Từ tế bào đến cơ thể,Bài 21. Thực hành quan sát sinh vật (tiết 1),"
-- Nêu được sự cần thiết của việc phân loại thế giới sống.
- - Phân biệt được các bậc phân loại từ nhỏ đến lớn theo trật tự: Loài, chi, họ, bộ, lớp, ngành, giới. 
- - Nhận biết được cách đổi tên sinh vật.
- - Nhận biết được 5 giới sinh vật và lấy được ví dụ minh họa cho mỗi giới.
- - Nhận biết được cách xây dựng khóa lưỡng phân thông qua ví dụ.
- - - Lấy được ví dụ chứng minh thế giới sống đa dạng về số lượng loài và đa dạng về môi trường sống.",
-54,,Ôn tập chủ đề 7.,,
-"55, 56, 57, 58",Chủ đề 8. Đa dạng thế giới sống,"Bài 22. Phân loại thế giới sống (tiết 1, 2)","
- - Nêu được sự cần thiết của việc phân loại thế giới sống.
- - Phân biệt được các bậc phân loại từ nhỏ đến lớn theo trật tự: Loài, chi, họ, bộ, lớp, ngành, giới. Nhận biết được cách đổi tên sinh vật.
- - Nhận biết được 5 giới sinh vật và lấy được ví dụ minh họa cho mỗi giới.
- - Nhận biết được cách xây dựng khóa lưỡng phân thông qua ví dụ.
- - Lấy được ví dụ chứng minh thế giới sống đa dạng về số lượng loài và đa dạng về môi trường sốn",
-"",Chủ đề 8. Đa dạng thế giới sống,"Bài 22. Phân loại thế giới sống","- Nêu được sự cần thiết của việc phân loại thế giới sống.
- - Phân biệt được các bậc phân loại từ nhỏ đến lớn theo trật tự: Loài, chi, họ, bộ, lớp, ngành, giới. Nhận biết được cách đổi tên sinh vật.
- - Nhận biết được 5 giới sinh vật và lấy được ví dụ minh họa cho mỗi giới.
- - Nhận biết được cách xây dựng khóa lưỡng phân thông qua ví dụ.
- - Lấy được ví dụ chứng minh thế giới sống đa dạng về số lượng loài và đa dạng về môi trường sống",
-"59, 60",,"Ôn tập (tiết 1, 2)",- Hệ thống kiến thức từ chủ đề 1 đến chủ đề 8.,
-"61, 62",,Kiểm tra đánh giá cuối kì I (60 phút),,
-"63, 64",,Trả bài KTĐG cuối HKI,,
-65,Chủ đề 8. Đa dạng thế giới sống,Bài 23. Thực hành xây dựng khóa lưỡng phân.,- Xây dựng được khóa lưỡng phân với đối tượng sinh vật.,
-"66, 67",Chủ đề 8. Đa dạng thế giới sống,"Bài 24. Virus (tiết 1, 2)","- Quan sát hình ảnh và mô tả được hình dạng và cấu tạo đơn giản của virus.
- - Nêu được một số bệnh do virus gây ra. Trình bày được một số cách
- - phòng và chống bệnh do virus gây ra.
- - Nêu được một số vai trò và ứng dụng virus trong thực tiễn.
- - Vận dụng được hiểu biết về virus vào giải thích một số hiện tượng
- - trong thực tiễn.",
-68,Chủ đề 8. Đa dạng thế giới sống,Bài 25. Vi khuẩn (tiết 1),- Nêu được vai trò của vi khuẩn trong tự nhiên và thực tiễn. Trình bày được một số bệnh do vi khuẩn gây ra và nêu được một số biện pháp phòng chống.,
-69,Chủ đề 8. Đa dạng thế giới sống,Bài 25. Vi khuẩn (tiết 2),- Nêu được vai trò của vi khuẩn trong tự nhiên và thực tiễn. Trình bày được một số bệnh do vi khuẩn gây ra và nêu được một số biện pháp phòng chống.,
-70,Chủ đề 8. Đa dạng thế giới sống,Bài 26. Thực hành quan sát vi khuẩn. Tìm hiểu các bước làm sữa chua.,- Trình bày được các bước làm tiêu bản vi khuẩn lactic.,
-"71, 72",Chủ đề 8. Đa dạng thế giới sống,"Bài 27. Nguyên sinh vật (tiết 1, 2)",- Nêu được sự đa dạng của nguyên sinh vật.,
-"73, 74, 75",Chủ đề 8. Đa dạng thế giới sống,"Bài 27. Nguyên sinh vật (tiết 3, 4, 5)","- Nêu được vai trò của nguyên sinh vật trong tự nhiên và một số bệnh do nguyên sinh vật gây ra.
- - Trình bày được các biện pháp phòng và chống bệnh do nguyên sinh vật gây ra.",
-76,Chủ đề 8. Đa dạng thế giới sống,Bài 28. Nấm (tiết 1),"- Nhận biết được một số đại diện nấm thông qua quan sát hình ảnh, mẫu vật (nấm đơn bào, đa bào. Một số đại diện phổ biến: nấm đảm, nấm túi, ...).
- - Dựa vào hình thái, trình bày được sự đa dạng của nấm. - Trình bày được vai trò của nấm trong tự nhiên và trong thực tiễn (nấm được trồng làm thức ăn, dùng làm thuốc,...).
- - Nêu được một số bệnh do nấm gây ra. Trình bày được cách phòng và chống bệnh
- do nấm gây ra.
- - Vận dụng được hiểu biết về nấm vào giải thích một số hiện tượng trong đời sống như kĩ thuật trồng nấm, nấm ăn được, nấm độc, ...                                                                              - - Thông qua thực hành, quan sát và vẽ được hình nấm (quan sát bằng mắt thường hoặc kính lúp).",
-"77, 78, 79",Chủ đề 8. Đa dạng thế giới sống,"Bài 28. Nấm 
- (tiết 2, 3, 4)","- Nhận biết được một số đại diện nấm thông qua quan sát hình ảnh, mẫu vật (nấm đơn bào, đa bào. Một số đại diện phổ biến: nấm đảm, nấm túi, ...).
- - Dựa vào hình thái, trình bày được sự đa dạng của nấm. - Trình bày được vai trò của nấm trong tự nhiên và trong thực tiễn (nấm được trồng làm thức ăn, dùng làm thuốc,...).
- - Nêu được một số bệnh do nấm gây ra. Trình bày được cách phòng và chống bệnh
- do nấm gây ra.
- - Vận dụng được hiểu biết về nấm vào giải thích một số hiện tượng trong đời sống như kĩ thuật trồng nấm, nấm ăn được, nấm độc, ...                                                                                -----Thông qua thực hành, quan sát và vẽ được hình nấm (quan sát bằng mắt thường hoặc kính lúp).",
-80,Chủ đề 8. Đa dạng thế giới sống,Bài 29. Thực vật (tiết 1),"- Dựa vào sơ đồ, hình ảnh, mẫu vật, phân biệt được các nhóm thực vật:                                                                                                                                                                                    Thực vật không có mạch (Rêu); Thực vật có mạch, không có hạt (Dương xỉ); Thực vật có mạch, có hạt (Hạt trần); Thực vật có mạch, có hạt, có hoa (Hạt kín).
- - Trình bày được vai trò của thực vật trong đời sống và trong tự nhiên: làm thực phẩm, đồ dùng, bảo vệ môi trường (trồng và bảo vệ cây xanh trong thành phố, trồng cây gây rừng, ...).",
-"81, 82, 83, 84",Chủ đề 8. Đa dạng thế giới sống,"Bài 29. Thực vật 
- (tiết 2, 3, 4, 5)","- Dựa vào sơ đồ, hình ảnh, mẫu vật, phân biệt được các nhóm thực vật: Thực vật không có mạch (Rêu);                                              - Thực vật có mạch, không có hạt (Dương xỉ); Thực vật có mạch, có hạt (Hạt trần); Thực vật có mạch, có hạt, có hoa (Hạt kín).
-- Trình bày được vai trò của thực vật trong đời sống và trong tự nhiên: làm thực
- phẩm, đồ dùng, bảo vệ môi trường (trồng và bảo vệ cây xanh trong thành phố, trồng cây gây rừng, ...).",
-85,Chủ đề 8. Đa dạng thế giới sống,Bài 30. Thực hành phân loại thực vật,"Quan sát hình ảnh, mẫu vật thực vật và phân chia được thành các nhóm thực vật theo các tiêu chí phân loại đã học.",
-86,,Ôn tập,Nắm được kiến thức trọng tâm về đa dạng thế giới sống,
-"87, 88",Chủ đề 8. Đa dạng thế giới sống,"Bài 31. Động vật (tiết 1, 2)","- Phân biệt được hai nhóm động vật không xương sống và có xương sống. Lấy được ví dụ minh hoạ.
- - Nhận biết được các nhóm động vật không xương sống dựa vào quan sát hình ảnh hình thái (hoặc mẫu vật, mô hình) của chúng (Ruột khoang, Giun; Thân mềm, Chân khớp).
- - Gọi được tên một số con vật điển hình. Nhận biết được các nhóm động vật có xương sống dựa vào quan sát hình ảnh hình thái (hoặc mẫu vật, mô hình) của chúng (Cá, Lưỡng cư, Bò sát, Chim, Thú).
- - Gọi được tên một số con vật điển hình. Nêu được một số tác hại của động vật trong đời sống.",
-"89, 90, 91, 92",Chủ đề 8. Đa dạng thế giới sống,"Bài 31. Động vật (tiết 3, 4, 5, 6)","- Phân biệt được hai nhóm động vật không xương sống và có xương sống. Lấy được ví dụ minh hoạ.
- - Nhận biết được các nhóm động vật không xương sống dựa vào quan sát hình ảnh hình thái (hoặc mẫu vật, mô hình) của chúng (Ruột khoang, Giun; Thân mềm, Chân khớp).
- - Gọi được tên một số con vật điển hình. Nhận biết được các nhóm động vật có xương sống dựa vào quan sát hình ảnh hình thái (hoặc mẫu vật, mô hình) của chúng (Cá, Lưỡng cư, Bò sát, Chim, Thú).
- - Gọi được tên một số con vật điển hình. Nêu được một số tác hại của động vật trong đời sống.",
-93,Chủ đề 8. Đa dạng thế giới sống,Bài 32. Thực hành quan sát và phân loại động vật ngoài thiên nhiên,Thực hành quan sát (hoặc chụp ảnh) và kể được tên một số động vật quan sát được ngoài thiên nhiên.,
-"94, 95",Chủ đề 8. Đa dạng thế giới sống,"Bài 33. Đa dạng sinh học (tiết 1, 2)","- Nêu được vai trò của đa dạng sinh học trong tự nhiên và trong thực tiễn (làm thuốc, làm thức ăn, chỗ ở, bảo vệ môi trường,...).
- - Giải thích được vì sao cần bảo vệ đa dạng sinh học.",
-96,Chủ đề 8. Đa dạng thế giới sống,Bài 34. Tìm hiểu sinh vật ngoài thiên nhiên (tiết 1),"- Thực hiện được một số phương pháp tìm hiểu sinh vật ngoài thiên nhiên: quan sát bằng mắt thường, kính lúp, ống nhòm; ghi chép, đo đếm, nhận xét và rút ra kết luận. Nhận biết được vai trò của sinh vật trong tự nhiên (Ví dụ, cây bóng mát, điều hòa khí hậu, làm sạch môi trường, làm thức ăn cho động vật, ...).
- - Sử dụng được khoá lưỡng phân để phân loại một số nhóm sinh vật. Quan sát và phân biệt được một số nhóm thực vật ngoài thiên nhiên.
- - Chụp ảnh và làm được bộ sưu tập ảnh về các nhóm sinh vật (thực vật, động vật cóxương sống, động vật không xương sống). Làm và trình bày được báo cáo đơn giản về kết quả tìm hiểu sinh vật ngoài thiên nhiên",
-97,Chủ đề 8. Đa dạng thế giới sống,Bài 34. Tìm hiểu sinh vật ngoài thiên nhiên (tiết 2),"- Thực hiện được một số phương pháp tìm hiểu sinh vật ngoài thiên nhiên: quan sát bằng mắt thường, kính lúp, ống nhòm; ghi chép, đo đếm, nhận xét và rút ra kết luận. Nhận biết được vai trò của sinh vật trong tự nhiên (Ví dụ, cây bóng mát, điều hòa khí hậu, làm sạch môi trường, làm thức ăn cho động vật, ...).
- - Sử dụng được khoá lưỡng phân để phân loại một số nhóm sinh vật. Quan sát và phân biệt được một số nhóm thực vật ngoài thiên nhiên.
- - Chụp ảnh và làm được bộ sưu tập ảnh về các nhóm sinh vật (thực vật, động vật cóxương sống, động vật không xương sống). Làm và trình bày được báo cáo đơn giản về kết quả tìm hiểu sinh vật ngoài thiên nhiên",
-98,,Ôn tập.,"- Hệ thống hóa kiến thức.
- - Nắm được các kiến thức trọng tâm",
-"99, 100",,Kiểm tra đánh giá giữa kì II (60 phút),Vận dụng kiến thức đã vào giải quyết vấn đề được đặt ra trong các câu hỏi.,
-101,Chủ đề 8. Đa dạng thế giới sống,Bài 34. Tìm hiểu sinh vật ngoài thiên nhiên (tiết 3),,
-102,,Ôn tập chủ đề 8,Hệ thống hóa kiến thức về đa dạng thế giới sống và vai trò của mỗi nhóm sinh vật trong thực tiễn,
-"105, 106",Chủ đề 9. Lực,"Bài 36. Tác dụng của lực (tiết 1, 2)","- Nêu được các tác dụng của lực. Lấy được ví dụ về tác dụng của lực làm: thay đổi tốc độ, thay đổi hướng chuyển động, biến dạng vật.
- - Giải thích được một số tác dụng của lực tồn tại trong tự nhiên.",
-109,Chủ đề 9. Lực,Bài 38. Lực tiếp xúc và lực không tiếp xúc,"- Nêu được lực tiếp xúc xuất hiện khi vật (hoặc đối tượng) gây ra có sự tiếp xúc với vật (hoặc đối tượng) chịu tác dụng của lực.
- - Nêu được lực không tiếp xúc xuất hiện khi vật (hoặc đối tượng) gây ra lực không có sự tiếp xúc với vật (hoặc đối tượng) chịu tác dụng của lực.",
-"113, 114, 115, 116",Chủ đề 9. Lực,"Bài 40. Lực ma sát (tiết 1, 2, 3, 4)","- Nêu được khái niệm lực ma sát, lực ma sát trượt, lực ma sát nghỉ. Nêu được tác dụng cản trở và tác dụng thúc đẩy chuyển động của lực ma sát
- - Sử dụng tranh, ảnh, (hình vẽ, học liệu điện tử) để nêu được: sự tương tác giữa bề mặt của hai vật tạo ra lực ma sát giữa chúng.",
-"117, 118, 119, 120",Chủ đề 10. Năng lượng và cuộc sống,"Bài 41. Năng lượng (tiết 1, 2, 3, 4)","- Lấy được ví dụ chứng tỏ năng lượng đặc trưng cho khả năng tác dụng lực.
- - Phân loại được năng lượng theo tiêu chí. Lấy được ví dụ về một số loại năng lượng tái tạo thông dụng",
-"121, 122",Chủ đề 10. Năng lượng và cuộc sống,"Bài 42. Bảo toàn năng lượng và sử dụng năng lượng (tiết 1, 2)","- Nêu được sự truyền năng lượng, sự chuyển hóa năng lượng trong một số trường hợp đơn giản trong thực tiễn và định luật bảo toàn năng lượng.",
-"123, 124",,"Ôn tập (tiết 1, 2)","- Hệ thống kiến thức HK II
- - Nắm được kiến thức trọng tâm",
-"125, 126",,Kiểm tra đánh giá cuối kì II (60 phút),Vận dụng kiến thức đã vào giải quyết vấn đề được đặt ra trong các câu hỏi.,
-"127, 128",,Trả bài KTĐG cuối HKII,"- Sửa bài kiểm tra đánh giá cuối kì.
- - Nghiêm túc, chú ý lắng nghe.",
-"129, 130, 131",Chủ đề 10. Năng lượng và cuộc sống,"Bài 42. Bảo toàn năng lượng và sử dụng năng lượng
-  (tiết 3, 4, 5)",,
-132,Chủ đề 11. Trái Đất và bầu trời,Bài 43. Chuyển động nhìn thấy của Mặt Trời (tiết 1),Nêu được chuyển động nhìn thấy hàng ngày của Mặt Trời.,
-133,Chủ đề 11. Trái Đất và bầu trời,Bài 43. Chuyển động nhìn thấy của Mặt Trời (tiết 2),Nêu được chuyển động nhìn thấy hàng ngày của Mặt Trời.,
-"134, 135, 136",Chủ đề 11. Trái Đất và bầu trời,"Bài 44. Chuyển động nhìn thấy của Mặt Trăng (tiết 1, 2, 3)","- Nhận biết được các hình dạng nhìn thấy của Mặt Trăng
- - Hiểu được Mặt Trăng phản xạ ánh sáng Mặt Trời va khái niệm hình dạng nhìn thấy của Mặt Trăng.",
-"137, 138",Chủ đề 11. Trái Đất và bầu trời,"Bài 45. Hệ Mặt Trời và Ngân Hà (tiết 1, 2)","Nêu được Mặt Trời và các sao là các thiên thể phát sáng, các hành tinh và sao chổi phản xạ ánh sáng Mặt Trời.",
-"139, 140",Chủ đề 11. Trái Đất và bầu trời,"Bài 45. Hệ Mặt Trời và Ngân Hà (tiết 3, 4)","- Chỉ ra được hệ Mặt Trời là một phần nhỏ của Ngân Hà.
- - Tìm hiểu được cấu trúc của hệ Mặt Trời, một số đặc trưng của các hành tinh trong hệ Mặt Trời và cấu trúc Ngân hà.",
+﻿Tiết,Chủ đề,Bài dạy,Yêu cầu cần đạt
+1,Mở đầu,Bài 1. Giới thiệu về KHTN,- Nêu được khái niệm khoa học tự nhiên.
+- Quan sát các hoạt động trong cuộc sống và nhận ra đâu là hoạt động nghiên cứu khoa học, đối tượng nghiên cứu của chúng là gì.
+- Trình bày được vai trò của khoa học tự nhiên trong đời sống.
+2-3,Mở đầu,Bài 2. Các lĩnh vực chủ yếu của KHTN,- Trình bày được một số lĩnh vực chủ yếu của khoa học tự nhiên.
+- Tìm hiểu các lĩnh vực của khoa học tự nhiên thông qua thực hiện và quan sát các thí nghiệm trong SGK.
+- Phân biệt được các lĩnh vực của khoa học tự nhiên dựa vào đối tượng nghiên cứu
+4,Mở đầu,Bài 3. Quy định an toàn trong phòng thực hành. Sử dụng kính lúp và kính hiển vi quang học (tiết 1),- Trình bày được cách sử dụng một số dụng cụ đo thông thường.
+- Nêu được các quy định an toàn khi học trong phòng thực hành.
+- Phân biệt được các kí hiệu cảnh báo.
+- Trình bày được cách sử dụng kính lúp, kính hiển vi quang học.
+5-7,Mở đầu,Bài 3. Quy định an toàn trong phòng thực hành. Sử dụng kính lúp và kính hiển vi quang học (tiết 2-4),- Trình bày được cách sử dụng một số dụng cụ đo thông thường.
+- Nêu được các quy định an toàn khi học trong phòng thực hành.
+- Phân biệt được các kí hiệu cảnh báo.
+- Trình bày được cách sử dụng kính lúp, kính hiển vi quang học.
+8,Chủ đề 1. Các phép đo,Bài 4. Đo chiều dài (tiết 1),- Nêu được cách đo, đơn vị đo và dụng cụ thường dùng để đo chiều dài của một vật.
+- Nêu được tầm quan trọng của việc ước lượng trước khi đo chiều dài.
+9,Chủ đề 1. Các phép đo,Bài 4. Đo chiều dài (tiết 2),- Nêu được cách đo, đơn vị đo và dụng cụ thường dùng để đo chiều dài của một vật.
+- Nêu được tầm quan trọng của việc ước lượng trước khi đo chiều dài.
+10-11,Chủ đề 1. Các phép đo,Bài 5. Đo khối lượng,- Nêu được cách đo, đơn vị đo và dụng cụ thường dùng để đo khối lượng của một vật.
+- Nêu được tầm quan trọng của việc ước lượng trước khi đo khối lượng.
+12,Chủ đề 1. Các phép đo,Bài 6. Đo thời gian (tiết 1),- Nêu được cách đo, đơn vị đo và dụng cụ thường dùng để đo thời gian.
+- Nêu được tầm quan trọng của việc ước lượng trước khi đo thời gian.
+13,Chủ đề 1. Các phép đo,Bài 6. Đo thời gian (tiết 2),- Nêu được cách đo, đơn vị đo và dụng cụ thường dùng để đo thời gian.
+- Nêu được tầm quan trọng của việc ước lượng trước khi đo thời gian.
+14-16,Chủ đề 1. Các phép đo,Bài 7. Thang nhiệt độ Celsius. Đo nhiệt độ,- Phát biểu được nhiệt độ là số đo độ nóng, lạnh của vật.
+- Nêu được cách xác định nhiệt độ trong thang nhiệt độ Celsius.
+- Nêu được sự nở vì nhiệt của chất lỏng được dùng làm cơ sở để đo nhiệt độ.
+17,,Ôn tập chủ đề 1,- Hệ thống hóa kiến thức chủ đề 1.
+18-20,Chủ đề 2. Các thể của chất,Bài 8. Sự đa dạng và các thể cơ bản của chất. Tính chất của chất,- Nêu được sự đa dạng của chất.
+- Trình bày được một số đặc điểm cơ bản ba thể (rắn, lỏng, khí) của chất thông qua quan sát.
+- Nêu được một số tính chất của chất (tính chất vật lí, tính chất hoá học).
+- Nêu được các khái niệm về sự nóng chảy, sự sôi, sự bay hơi, sự ngưng tụ, sự đông đặc.
+21,Chủ đề 3. Oxygen và không khí,Bài 9. Oxygen,- Nêu được một số tính chất của oxygen.
+- Nêu được tầm quan trọng của oxygen đối với sự sống, sự cháy.
+22,Chủ đề 2. Các thể của chất,Bài 10. Không khí và bảo vệ môi trường không khí,- Nêu được thành phần của không khí.
+- Trình bày được vai trò của không khí đối với tự nhiên.
+- Trình bày được sự ô nhiễm không khí: các chất gây ô nhiễm, nguồn gây ô nhiễm.
+23,,Ôn tập chủ đề 2-3,- Hệ thống hoá được kiến thức chủ đề 2 và 3.
+24-25,Chủ đề 4. Vật liệu - Nhiên liệu - Nguyên liệu,Bài 11. Một số vật liệu thông dụng,- Đề xuất được phương án tìm hiểu về tính chất của vật liệu thông dụng.
+- Thu thập dữ liệu, phân tích, thảo luận để rút ra kết luận.
+26-27,Chủ đề 4. Vật liệu - Nhiên liệu - Nguyên liệu,Bài 12. Nhiên liệu và an ninh năng lượng,- Trình bày được tính chất và ứng dụng của một số nhiên liệu thông dụng.
+- Nêu được cách sử dụng nhiên liệu an toàn, hiệu quả.
+28,Chủ đề 4. Vật liệu - Nhiên liệu - Nguyên liệu,Bài 13. Một số nguyên liệu,- Trình bày được tính chất và ứng dụng của một số nguyên liệu thường dùng trong sản xuất.
+- Nêu được cách sử dụng nguyên liệu an toàn, hiệu quả.
+29,Chủ đề 4. Vật liệu - Nhiên liệu - Nguyên liệu,Bài 14. Một số lương thực - thực phẩm,- Trình bày được tính chất và ứng dụng của lương thực, thực phẩm thông dụng.
+- Đề xuất được phương án tìm hiểu về tính chất lương thực.
+30,,Ôn tập chủ đề 4,
+31-32,,Kiểm tra đánh giá giữa kỳ I (60 phút),
+33-36,Chủ đề 5. Chất tinh khiết - Hỗn hợp,Bài 15. Chất tinh khiết - Hỗn hợp,- Nêu được khái niệm hỗn hợp, chất tinh khiết.
+- Phân biệt được hỗn hợp đồng nhất, hỗn hợp không đồng nhất.
+- Nhận ra được một số khí hoà tan trong nước tạo thành dung dịch.
+37-38,Chủ đề 5. Chất tinh khiết - Hỗn hợp,Bài 16. Một số phương pháp tách chất ra khỏi hỗn hợp,- Trình bày được một số phương pháp đơn giản để tách chất ra khỏi hỗn hợp.
+- Nêu được ứng dụng của các phương pháp đó.
+39,,Ôn tập chủ đề 4-5,
+40,Chủ đề 6. Tế bào - Đơn vị cơ sở của sự sống,Bài 17. Tế bào (tiết 1),- Trình bày được khái niệm và chức năng của tế bào.
+- Nêu được hình dạng và kích thước điển hình của một số loại tế bào.
+- Trình bày được cấu tạo tế bào và chức năng từng thành phần.
+- Phân biệt được tế bào nhân sơ và tế bào nhân thực.
+41-44,Chủ đề 6. Tế bào - Đơn vị cơ sở của sự sống,Bài 17. Tế bào (tiết 2-5),- Trình bày được khái niệm và chức năng của tế bào.
+- Nêu được hình dạng và kích thước điển hình của một số loại tế bào.
+- Trình bày được cấu tạo tế bào và chức năng từng thành phần.
+- Phân biệt được tế bào nhân sơ và tế bào nhân thực.
+45-46,Chủ đề 6. Tế bào - Đơn vị cơ sở của sự sống,Bài 18. Thực hành quan sát tế bào sinh vật,- Thực hành quan sát tế bào lớn bằng mắt thường và tế bào nhỏ dưới kính lúp.
+47,,Ôn tập chủ đề 6,- Hệ thống hóa kiến thức chủ đề 6.
+48,Chủ đề 7. Từ tế bào đến cơ thể,Bài 19. Cơ thể đơn bào và cơ thể đa bào (tiết 1),- Nhận biết được cơ thể đơn bào, cơ thể đa bào.
+- Quan sát, mô phỏng được cấu tạo cơ thể đơn bào, cơ thể đa bào.
+49,Chủ đề 7. Từ tế bào đến cơ thể,Bài 19. Cơ thể đơn bào và cơ thể đa bào (tiết 2),- Nhận biết được cơ thể đơn bào, cơ thể đa bào.
+- Quan sát, mô phỏng được cấu tạo cơ thể đơn bào, cơ thể đa bào.
+50-51,Chủ đề 7. Từ tế bào đến cơ thể,Bài 20. Các cấp độ tổ chức trong cơ thể đa bào,- Trình bày được mối quan hệ từ tế bào hình thành nên mô, cơ quan, hệ cơ quan.
+- Nêu được các khái niệm mô, cơ quan, hệ cơ quan, cơ thể.
+52-53,Chủ đề 7. Từ tế bào đến cơ thể,Bài 21. Thực hành quan sát sinh vật,- Nêu được sự cần thiết của việc phân loại thế giới sống.
+- Phân biệt được các bậc phân loại: Loài, chi, họ, bộ, lớp, ngành, giới.
+- Nhận biết được cách đổi tên sinh vật.
+54,,Ôn tập chủ đề 7,
+55-58,Chủ đề 8. Đa dạng thế giới sống,Bài 22. Phân loại thế giới sống,- Nêu được sự cần thiết của việc phân loại thế giới sống.
+- Phân biệt được các bậc phân loại: Loài, chi, họ, bộ, lớp, ngành, giới.
+- Nhận biết được 5 giới sinh vật và lấy ví dụ minh họa.

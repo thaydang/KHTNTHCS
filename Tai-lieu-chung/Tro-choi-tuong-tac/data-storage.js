@@ -466,8 +466,10 @@ class DataStorage {
 const storage = new DataStorage();
 
 // Backup tự động mỗi ngày
-if (!localStorage.getItem('last_backup_date') || 
-    localStorage.getItem('last_backup_date') !== new Date().toISOString().split('T')[0]) {
+const lastBackupDate = localStorage.getItem('last_backup_date');
+const today = new Date().toISOString().split('T')[0];
+
+if (!lastBackupDate || lastBackupDate !== today) {
     storage.autoBackup();
-    localStorage.setItem('last_backup_date', new Date().toISOString().split('T')[0]);
+    localStorage.setItem('last_backup_date', today);
 }

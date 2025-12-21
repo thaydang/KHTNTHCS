@@ -7,6 +7,8 @@ class AIEngine {
     constructor() {
         this.knowledgeBase = this.initKnowledgeBase();
         this.difficultyLevels = ['easy', 'medium', 'hard'];
+        // Threshold for answer similarity (0-1, where 1 is exact match)
+        this.SIMILARITY_THRESHOLD = 0.8;
     }
 
     /**
@@ -295,15 +297,17 @@ class AIEngine {
         for (let i = 0; i < Math.min(numQuestions, cards.length); i++) {
             const card = cards[i];
             
-            // Tạo câu với chỗ trống
+            // Tạo câu với chỗ trống - kiểm tra vị trí để quyết định đáp án
             const sentences = [
                 `_____ là ${card.definition.toLowerCase()}.`,
                 `Khái niệm "${card.term}" có nghĩa là _____.`,
                 `Trong khoa học, _____ được định nghĩa là ${card.definition.toLowerCase()}.`
             ];
             
-            const sentence = sentences[Math.floor(Math.random() * sentences.length)];
-            const answer = sentence.includes('_____')  && sentence.indexOf('_____') === 0 ? card.term : card.definition;
+            const sentenceIndex = Math.floor(Math.random() * sentences.length);
+            const sentence = sentences[sentenceIndex];
+            // Nếu blank ở đầu câu thì answer là term, ngược lại là definition
+            const answer = sentenceIndex === 0 ? card.term : card.definition;
             
             questions.push({
                 sentence,
@@ -352,7 +356,7 @@ class AIEngine {
         const similarity = this.calculateSimilarity(normalizedUser, normalizedCorrect);
         
         return {
-            correct: similarity > 0.8,
+            correct: similarity > this.SIMILARITY_THRESHOLD,
             similarity: Math.round(similarity * 100),
             feedback: this.generateFeedback(similarity)
         };

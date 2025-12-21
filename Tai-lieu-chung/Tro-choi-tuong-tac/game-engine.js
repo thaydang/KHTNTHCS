@@ -192,7 +192,7 @@ class GameEngine {
         let message = '';
         
         if (accuracy >= 90) {
-            message = '🏆 Xuất sắc! Bạn là thiên tai khoa học!';
+            message = '🏆 Xuất sắc! Bạn là thiên tài khoa học!';
         } else if (accuracy >= 70) {
             message = '👍 Tốt lắm! Tiếp tục phát huy nhé!';
         } else if (accuracy >= 50) {
@@ -512,7 +512,7 @@ class GameEngine {
 
         document.getElementById('fillblankScore').textContent = score;
         
-        // Lưu kết quả
+        // Lưu kết quả (thời gian không được theo dõi cho game này)
         storage.saveGameResult('fillblank', score, this.fillBlankQuestions.length, correct, 0);
         
         // Disable kiểm tra

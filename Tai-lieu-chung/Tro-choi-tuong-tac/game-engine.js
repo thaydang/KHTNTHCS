@@ -483,7 +483,7 @@ class GameEngine {
     /**
      * Kiểm tra đáp án điền từ
      */
-    checkFillBlankAnswers() {
+    checkFillBlankAnswers(event) {
         const inputs = document.querySelectorAll('.fill-blank-input');
         let score = 0;
         let correct = 0;
@@ -516,8 +516,10 @@ class GameEngine {
         storage.saveGameResult('fillblank', score, this.fillBlankQuestions.length, correct, 0);
         
         // Disable kiểm tra
-        event.target.disabled = true;
-        event.target.textContent = 'Đã kiểm tra';
+        if (event && event.target) {
+            event.target.disabled = true;
+            event.target.textContent = 'Đã kiểm tra';
+        }
         
         setTimeout(() => {
             alert(`Hoàn thành!\nĐiểm: ${score}/${this.fillBlankQuestions.length * 20}`);
@@ -715,8 +717,8 @@ function rateCard(difficulty) {
     gameEngine.rateFlashcard(difficulty);
 }
 
-function checkFillBlank() {
-    gameEngine.checkFillBlankAnswers();
+function checkFillBlank(event) {
+    gameEngine.checkFillBlankAnswers(event);
 }
 
 function showStats() {
